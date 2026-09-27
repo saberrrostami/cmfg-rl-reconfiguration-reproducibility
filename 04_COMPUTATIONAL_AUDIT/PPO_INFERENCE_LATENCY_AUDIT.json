@@ -1,0 +1,18 @@
+{
+  "design": "post-hoc PPO inference-only CPU timing diagnostic",
+  "n_decision_states": 500,
+  "heldout_seed_counts": {
+    "970001": 100,
+    "970002": 100,
+    "970003": 100,
+    "970004": 100,
+    "970005": 100
+  },
+  "ppo_mean_ms": 2.59632176,
+  "ppo_median_ms": 1.556989,
+  "ppo_p95_ms": 4.561311699999989,
+  "ppo_max_ms": 44.299368,
+  "python": "3.13.5",
+  "torch": "2.10.0+cpu",
+  "cpu": "x86_64"
+}

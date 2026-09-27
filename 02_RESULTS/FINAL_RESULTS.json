@@ -1,0 +1,213 @@
+{
+  "status": "FINAL10_COMPLETE",
+  "protocol": "v13-FINAL10-2.0-AUDITED",
+  "n": 50,
+  "seed_range": [
+    970001,
+    970050
+  ],
+  "primary_policy_estimand": "mean of all five PPO policies per final seed",
+  "family_effect": {
+    "mean_cost": 5.610096492445532,
+    "mean_abs_diff_vs_b6": -0.041843348351448165,
+    "absolute_ci": [
+      -0.17343263717098456,
+      0.08755108805443766
+    ],
+    "mean_paired_relative_reduction_percent": 0.324873314946949,
+    "relative_ci": [
+      -2.131081154005549,
+      2.8023116346839525
+    ],
+    "better_seeds": 27,
+    "signflip_pvalue_absolute_difference": 0.5364892702145957,
+    "completion_difference_pp": 0.22263177708196086,
+    "completion_ci_pp": [
+      -0.9185694981595821,
+      1.4262054267635664
+    ]
+  },
+  "family_hierarchical_training_environment_bootstrap_ci": [
+    -0.38301141576836845,
+    0.2774645418065528
+  ],
+  "hierarchical_bootstrap_replicates": 20000,
+  "ppo_family_mean_cost": 5.610096492445532,
+  "b6_mean_cost": 5.651939840796979,
+  "absolute_difference_ppo_minus_b6": -0.041843348351448165,
+  "absolute_ci": [
+    -0.17343263717098456,
+    0.08755108805443766
+  ],
+  "signflip_pvalue_absolute_difference": 0.5364892702145957,
+  "mean_paired_relative_reduction_percent": 0.324873314946949,
+  "relative_ci": [
+    -2.131081154005549,
+    2.8023116346839525
+  ],
+  "ratio_of_means_reduction_percent": 0.7403360532858573,
+  "ppo_family_completion": 0.776834863254504,
+  "b6_completion": 0.7746085454836846,
+  "completion_difference_pp": 0.22263177708196086,
+  "completion_ci_pp": [
+    -0.9185694981595821,
+    1.4262054267635664
+  ],
+  "ppo_family_better_seeds": 27,
+  "per_training_seed_policy": {
+    "1001": {
+      "mean_cost": 5.866365234579243,
+      "mean_abs_diff_vs_b6": 0.21442539378226436,
+      "absolute_ci": [
+        0.05970640226149645,
+        0.37301027754618055
+      ],
+      "mean_paired_relative_reduction_percent": -3.8267750479203557,
+      "relative_ci": [
+        -6.864045980405847,
+        -0.8243121512819018
+      ],
+      "better_seeds": 21,
+      "signflip_pvalue_absolute_difference": 0.010579788404231915,
+      "completion_difference_pp": -1.9106556918698712,
+      "completion_ci_pp": [
+        -3.055987343718013,
+        -0.7372571714409141
+      ]
+    },
+    "1002": {
+      "mean_cost": 5.137182754730571,
+      "mean_abs_diff_vs_b6": -0.5147570860664091,
+      "absolute_ci": [
+        -0.6663371616701462,
+        -0.36765547263762877
+      ],
+      "mean_paired_relative_reduction_percent": 9.067614369611437,
+      "relative_ci": [
+        6.615510464445075,
+        11.52629976407567
+      ],
+      "better_seeds": 43,
+      "signflip_pvalue_absolute_difference": 1.999960000799984e-05,
+      "completion_difference_pp": 3.0597645419292117,
+      "completion_ci_pp": [
+        1.5773275167682446,
+        4.579649303968661
+      ]
+    },
+    "1003": {
+      "mean_cost": 5.932709283907521,
+      "mean_abs_diff_vs_b6": 0.28076944311054125,
+      "absolute_ci": [
+        0.12465747022900622,
+        0.43962537957625974
+      ],
+      "mean_paired_relative_reduction_percent": -5.692651264696433,
+      "relative_ci": [
+        -9.121610292844897,
+        -2.4392281888416703
+      ],
+      "better_seeds": 16,
+      "signflip_pvalue_absolute_difference": 0.0012399752004959902,
+      "completion_difference_pp": -1.5412870640604472,
+      "completion_ci_pp": [
+        -3.032055674214577,
+        -0.036271112424842294
+      ]
+    },
+    "1004": {
+      "mean_cost": 5.227290478532531,
+      "mean_abs_diff_vs_b6": -0.42464936226444955,
+      "absolute_ci": [
+        -0.5739744590368241,
+        -0.2797054779931375
+      ],
+      "mean_paired_relative_reduction_percent": 6.991728367307582,
+      "relative_ci": [
+        4.483221709860506,
+        9.513127711277916
+      ],
+      "better_seeds": 39,
+      "signflip_pvalue_absolute_difference": 1.999960000799984e-05,
+      "completion_difference_pp": 2.9787109204552964,
+      "completion_ci_pp": [
+        1.773076745590841,
+        4.241328868521758
+      ]
+    },
+    "1005": {
+      "mean_cost": 5.886934710477791,
+      "mean_abs_diff_vs_b6": 0.23499486968081146,
+      "absolute_ci": [
+        0.07244051973399543,
+        0.3999058358100062
+      ],
+      "mean_paired_relative_reduction_percent": -4.915549849567468,
+      "relative_ci": [
+        -8.371873294004548,
+        -1.640464911735814
+      ],
+      "better_seeds": 15,
+      "signflip_pvalue_absolute_difference": 0.007599848003039939,
+      "completion_difference_pp": -1.4733738210443845,
+      "completion_ci_pp": [
+        -2.890349857543673,
+        -0.04752185651268661
+      ]
+    }
+  },
+  "deployment_training_seed": 1004,
+  "deployment_policy_effect": {
+    "mean_cost": 5.227290478532531,
+    "mean_abs_diff_vs_b6": -0.42464936226444955,
+    "absolute_ci": [
+      -0.5739744590368241,
+      -0.2797054779931375
+    ],
+    "mean_paired_relative_reduction_percent": 6.991728367307582,
+    "relative_ci": [
+      4.483221709860506,
+      9.513127711277916
+    ],
+    "better_seeds": 39,
+    "signflip_pvalue_absolute_difference": 1.999960000799984e-05,
+    "completion_difference_pp": 2.9787109204552964,
+    "completion_ci_pp": [
+      1.773076745590841,
+      4.241328868521758
+    ]
+  },
+  "deployment_selection_basis": "minimum selected development robust score; tie median then seed id",
+  "b6_selected_config": {
+    "lookahead_multiplier": 2,
+    "scenario_count": 25,
+    "time_limit_s": 5.0,
+    "mip_gap": 0.05,
+    "development_robust_score": 2.6541998598907304,
+    "fallback_rate": 0.0,
+    "timeouts": 0,
+    "median_latency_s": 0.12697219599999698,
+    "p95_latency_s": 0.9692541743999751
+  },
+  "b6_total_timeouts": 0,
+  "b6_total_fallbacks": 0,
+  "b6_median_seed_median_latency_s": 0.1469195800000591,
+  "b6_p95_seed_p95_latency_s": 1.5976460695999786,
+  "cost_component_difference_ppo_minus_b6": {
+    "service": -0.12002326998215604,
+    "switch": 0.006106693528641386,
+    "recovery": -0.0016209875989527112,
+    "restart": 1.6592105831514642e-06,
+    "tardiness": -0.02499554425296013,
+    "terminal": 0.09868810074339597
+  },
+  "adaptive_stopping": false,
+  "training_stability_supported_seeds": 4,
+  "convergence_claim": false,
+  "strength_flags": {
+    "family_mean_favors_ppo": true,
+    "family_absolute_ci_excludes_zero": false,
+    "all_five_policy_means_favor_ppo": false,
+    "deployment_mean_favors_ppo": true
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "design": "post-hoc matched-state computational diagnostic",
+  "n_decision_states": 100,
+  "heldout_seed_counts": {
+    "970001": 100
+  },
+  "ppo_median_ms": 2.973524999788424,
+  "ppo_p95_ms": 4.664090649885111,
+  "ppo_mean_ms": 3.2066372099870932,
+  "b6_median_ms": 155.4144770000221,
+  "b6_p95_ms": 486.7423688497182,
+  "b6_mean_ms": 225.44773493998946,
+  "speed_ratio_median_b6_over_ppo": 52.266073771392655,
+  "python": "3.13.5",
+  "torch": "2.10.0+cpu",
+  "scipy": "1.17.0",
+  "cpu": "x86_64"
+}

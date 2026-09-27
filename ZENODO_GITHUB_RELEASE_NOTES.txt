@@ -1,0 +1,6 @@
+Suggested release tag: v1.0.0
+Suggested release title: Reproducibility package v1.0.0
+Resource type on Zenodo: Software
+Suggested keywords: cloud manufacturing; service composition; service reconfiguration; reinforcement learning; PPO; rolling-horizon optimization; reproducibility
+
+After Zenodo creates the DOI, add that DOI to the manuscript Data and code availability statement.

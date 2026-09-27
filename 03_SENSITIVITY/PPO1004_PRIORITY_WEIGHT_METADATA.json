@@ -1,0 +1,14 @@
+{
+  "analysis": "Post-hoc fixed-controller accounting sensitivity for selected deployment policy PPO1004",
+  "panel": "all 50 already-opened final seeds 970001-970050",
+  "alphas": [
+    0.25,
+    0.5,
+    1.0
+  ],
+  "base_alpha": 0.5,
+  "no_retraining": true,
+  "no_policy_reselection": true,
+  "no_b6_reoptimization": true,
+  "interpretation": "Objective-accounting sensitivity only; does not constitute a new confirmatory PPO-vs-B6 comparison. Completion is invariant because controller decisions/transitions are fixed."
+}
