@@ -1,7 +1,7 @@
 # Reproducibility package
 
 ## Article
-**Dynamic service composition reconfiguration in cloud manufacturing under limited shared recovery capacity: A reinforcement learning approach**
+**Dynamic service composition reconfiguration in cloud manufacturing under limited shared recovery capacity: An event-driven SMDP formulation with reinforcement learning**
 
 This repository contains the frozen code, data inputs, selected model checkpoints, benchmark configuration, held-out results, sensitivity outputs, computational diagnostics, and figures used to support the article.
 
