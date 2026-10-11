@@ -1,7 +1,7 @@
 # Reproducibility package
 
 ## Article
-**Dynamic service composition reconfiguration in cloud manufacturing under limited shared recovery capacity: An event-driven SMDP formulation with reinforcement learning**
+*Dynamic service composition reconfiguration in cloud manufacturing with shared recovery capacity: An event-driven semi-Markov decision process**
 
 This repository contains the frozen code, data inputs, selected model checkpoints, benchmark configuration, held-out results, sensitivity outputs, computational diagnostics, and figures used to support the article.
 
@@ -44,7 +44,7 @@ The source dataset is distributed under the **CC BY 4.0** license. The dataset f
 ## Interpretation boundaries
 - The study is an empirically grounded simulation, not a field deployment of a commercial CMfg platform.
 - Results from the validation-selected PPO policy are distinct from the family-average result across the five independently trained policies.
-- The recovery-capacity level is fixed at B = 1 in the confirmatory evaluation.
+- The recovery-capacity level is fixed at B = 1 in the confirmatory evaluation. The primary confirmatory evaluation uses B = 1. A separate recovery-capacity sensitivity analysis considers B = 0, 1, 2, and 500; its findings are reported separately and should not be interpreted as part of the primary confirmatory comparison.
 - The priority-weight analysis is a fixed-trajectory accounting sensitivity; B6 is not reoptimized at alternative priority weights.
 - Timing results are hardware- and implementation-dependent diagnostics rather than confirmatory performance endpoints.
 
@@ -56,4 +56,4 @@ No new license for the project code is asserted by this package. Before public r
 
 ## Latest release — v1.1.0 (11 October 2026)
 Reproducibility materials accompanying the manuscript:
-Service composition reconfiguration in cloud manufacturing with shared recovery capacity: An event-driven semi-Markov decision process.
+Dynamic service composition reconfiguration in cloud manufacturing with shared recovery capacity: An event-driven semi-Markov decision process.
