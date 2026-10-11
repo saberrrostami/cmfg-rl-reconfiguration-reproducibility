@@ -23,7 +23,7 @@ The family-level PPO estimate averages the five independently trained policies. 
 - `03_SENSITIVITY/` — fixed-controller priority-weight accounting sensitivity.
 - `04_COMPUTATIONAL_AUDIT/` — post-hoc PPO/B6 timing scripts and outputs.
 - `05_EXPLORATORY/` — descriptive analysis stratified by B6 completion.
-- `06_FIGURES/` — manuscript figures numbered to match the final manuscript (Figures 1–9).
+- `06_FIGURES/` — manuscript figures numbered to match the final manuscript (Figures 1–10).
 
 ## Software environment
 The frozen scientific core includes `requirements_colab.txt`. Its principal Python dependencies are:
