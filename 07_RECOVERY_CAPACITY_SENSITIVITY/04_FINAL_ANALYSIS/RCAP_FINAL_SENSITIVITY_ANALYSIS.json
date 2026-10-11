@@ -1,0 +1,284 @@
+{
+  "0": {
+    "family": {
+      "mean_cost": 7.98916487604549,
+      "benchmark_mean_cost": 8.252691206775333,
+      "mean_abs_diff": -0.26352633072984394,
+      "abs_ci": [
+        -0.35119291327816315,
+        -0.18226533597780156
+      ],
+      "mean_rel_reduction_pct": 3.5761158981622736,
+      "rel_ci": [
+        2.3872559972290883,
+        4.884485158273979
+      ],
+      "better_scenarios": 44,
+      "mean_completion": 0.6476087185151058,
+      "benchmark_mean_completion": 0.6242471848444916,
+      "completion_diff_pp": 2.336153367061415,
+      "completion_ci_pp": [
+        1.5573562974507935,
+        3.166997799609932
+      ],
+      "hierarchical_abs_ci": [
+        -0.3577591156219403,
+        -0.17260371873975947
+      ]
+    },
+    "deployment_seed": 1004,
+    "deployment": {
+      "mean_cost": 7.943668216758185,
+      "benchmark_mean_cost": 8.252691206775333,
+      "mean_abs_diff": -0.3090229900171483,
+      "abs_ci": [
+        -0.4014450603750332,
+        -0.22266107979123784
+      ],
+      "mean_rel_reduction_pct": 4.176404957705686,
+      "rel_ci": [
+        2.888624523145462,
+        5.598445280698706
+      ],
+      "better_scenarios": 46,
+      "mean_completion": 0.6487179255185752,
+      "benchmark_mean_completion": 0.6242471848444916,
+      "completion_diff_pp": 2.4470740674083578,
+      "completion_ci_pp": [
+        1.6358458163214462,
+        3.3153938765976343
+      ]
+    },
+    "ppo_family_recovery_utilization": 0.0,
+    "ppo_family_full_capacity_fraction": 0.0,
+    "b6_recovery_utilization": 0.0,
+    "b6_full_capacity_fraction": 0.0,
+    "b6_timeouts": 0,
+    "b6_fallbacks": 0,
+    "b6_decisions": 9474,
+    "b6_fallback_rate": 0.0
+  },
+  "1": {
+    "family": {
+      "mean_cost": 5.974285781723488,
+      "benchmark_mean_cost": 5.972751977547744,
+      "mean_abs_diff": 0.0015338041757455656,
+      "abs_ci": [
+        -0.11018811022005753,
+        0.11333448547865835
+      ],
+      "mean_rel_reduction_pct": -0.08836411052169513,
+      "rel_ci": [
+        -2.525438800816778,
+        2.1997447482921335
+      ],
+      "better_scenarios": 22,
+      "mean_completion": 0.7621507757260538,
+      "benchmark_mean_completion": 0.7522456888281627,
+      "completion_diff_pp": 0.9905086897891082,
+      "completion_ci_pp": [
+        -0.044806078789037244,
+        2.059398057168271
+      ],
+      "hierarchical_abs_ci": [
+        -0.36124752273507665,
+        0.3516592928796153
+      ]
+    },
+    "deployment_seed": 1004,
+    "deployment": {
+      "mean_cost": 5.5616756708679524,
+      "benchmark_mean_cost": 5.972751977547744,
+      "mean_abs_diff": -0.4110763066797904,
+      "abs_ci": [
+        -0.526408957436485,
+        -0.2973722146801034
+      ],
+      "mean_rel_reduction_pct": 7.113124804866247,
+      "rel_ci": [
+        4.74933789261169,
+        9.41640814357373
+      ],
+      "better_scenarios": 43,
+      "mean_completion": 0.7880246787380775,
+      "benchmark_mean_completion": 0.7522456888281627,
+      "completion_diff_pp": 3.577898990991466,
+      "completion_ci_pp": [
+        2.4392417984796677,
+        4.712712501826873
+      ]
+    },
+    "ppo_family_recovery_utilization": 0.6587075432570476,
+    "ppo_family_full_capacity_fraction": 0.6587075432570476,
+    "b6_recovery_utilization": 0.6681119108760314,
+    "b6_full_capacity_fraction": 0.6681119108760314,
+    "b6_timeouts": 0,
+    "b6_fallbacks": 0,
+    "b6_decisions": 10942,
+    "b6_fallback_rate": 0.0
+  },
+  "2": {
+    "family": {
+      "mean_cost": 4.773509543510646,
+      "benchmark_mean_cost": 4.503749042054889,
+      "mean_abs_diff": 0.26976050145575714,
+      "abs_ci": [
+        0.16253023663915714,
+        0.38048009861683907
+      ],
+      "mean_rel_reduction_pct": -6.05653385353664,
+      "rel_ci": [
+        -8.752149252059088,
+        -3.408506457470471
+      ],
+      "better_scenarios": 16,
+      "mean_completion": 0.8466606665890797,
+      "benchmark_mean_completion": 0.8479237209204901,
+      "completion_diff_pp": -0.12630543314105108,
+      "completion_ci_pp": [
+        -1.190521301965524,
+        0.9255699921745942
+      ],
+      "hierarchical_abs_ci": [
+        -0.04838572592914796,
+        0.5997975675224232
+      ]
+    },
+    "deployment_seed": 1001,
+    "deployment": {
+      "mean_cost": 4.275767395013161,
+      "benchmark_mean_cost": 4.503749042054889,
+      "mean_abs_diff": -0.22798164704172813,
+      "abs_ci": [
+        -0.33429971962914007,
+        -0.11966436135917029
+      ],
+      "mean_rel_reduction_pct": 6.028045064774517,
+      "rel_ci": [
+        3.5076863765454385,
+        8.516643183063398
+      ],
+      "better_scenarios": 37,
+      "mean_completion": 0.8773172576279586,
+      "benchmark_mean_completion": 0.8479237209204901,
+      "completion_diff_pp": 2.939353670746831,
+      "completion_ci_pp": [
+        1.832572434564524,
+        4.0632806336406615
+      ]
+    },
+    "ppo_family_recovery_utilization": 0.7257484310935715,
+    "ppo_family_full_capacity_fraction": 0.6150473532440104,
+    "b6_recovery_utilization": 0.62395194801048,
+    "b6_full_capacity_fraction": 0.4356783230853877,
+    "b6_timeouts": 5,
+    "b6_fallbacks": 5,
+    "b6_decisions": 11837,
+    "b6_fallback_rate": 0.0004224043254202923
+  },
+  "500": {
+    "family": {
+      "mean_cost": 3.2397077741244042,
+      "benchmark_mean_cost": 2.6051827333086988,
+      "mean_abs_diff": 0.6345250408157057,
+      "abs_ci": [
+        0.48865236784784266,
+        0.7869857156968302
+      ],
+      "mean_rel_reduction_pct": -23.43326728192112,
+      "rel_ci": [
+        -28.860756587954523,
+        -18.245076714133045
+      ],
+      "better_scenarios": 4,
+      "mean_completion": 0.9440416433798597,
+      "benchmark_mean_completion": 0.959776571273888,
+      "completion_diff_pp": -1.5734927894028348,
+      "completion_ci_pp": [
+        -2.5203816192124093,
+        -0.6562462605973147
+      ],
+      "hierarchical_abs_ci": [
+        0.1032765976602194,
+        1.2391209695047571
+      ]
+    },
+    "deployment_seed": 1005,
+    "deployment": {
+      "mean_cost": 2.5583849044951426,
+      "benchmark_mean_cost": 2.6051827333086988,
+      "mean_abs_diff": -0.046797828813556326,
+      "abs_ci": [
+        -0.05862276095840023,
+        -0.034948104267852095
+      ],
+      "mean_rel_reduction_pct": 1.8359262678278732,
+      "rel_ci": [
+        1.3674140880214525,
+        2.306832604790107
+      ],
+      "better_scenarios": 42,
+      "mean_completion": 0.9991818181818182,
+      "benchmark_mean_completion": 0.959776571273888,
+      "completion_diff_pp": 3.940524690793014,
+      "completion_ci_pp": [
+        3.2093302059134654,
+        4.689644175526564
+      ]
+    },
+    "ppo_family_recovery_utilization": 0.007856980706932842,
+    "ppo_family_full_capacity_fraction": 0.0,
+    "b6_recovery_utilization": 0.009778020799443425,
+    "b6_full_capacity_fraction": 0.0,
+    "b6_timeouts": 0,
+    "b6_fallbacks": 0,
+    "b6_decisions": 10815,
+    "b6_fallback_rate": 0.0
+  },
+  "fixed_B1_policy": {
+    "0": {
+      "mean_cost": 7.908305624756102,
+      "mean_completion": 0.6494627531047822,
+      "recovery_utilization": 0.0,
+      "full_capacity_fraction": 0.0,
+      "cost_diff_vs_nonbinding": 5.0048404258823265,
+      "cost_diff_vs_nonbinding_ci": [
+        4.55910366596584,
+        5.440201564649672
+      ]
+    },
+    "1": {
+      "mean_cost": 5.5616756708679524,
+      "mean_completion": 0.7880246787380775,
+      "recovery_utilization": 0.6517433730397681,
+      "full_capacity_fraction": 0.6517433730397681,
+      "cost_diff_vs_nonbinding": 2.6582104719941757,
+      "cost_diff_vs_nonbinding_ci": [
+        2.2572601733891386,
+        3.070039689858856
+      ]
+    },
+    "2": {
+      "mean_cost": 4.199353519397003,
+      "mean_completion": 0.879663470918739,
+      "recovery_utilization": 0.6014241849712884,
+      "full_capacity_fraction": 0.45288465638748654,
+      "cost_diff_vs_nonbinding": 1.2958883205232268,
+      "cost_diff_vs_nonbinding_ci": [
+        1.0181473857702794,
+        1.5838855160145724
+      ]
+    },
+    "500": {
+      "mean_cost": 2.9034651988737763,
+      "mean_completion": 0.9635381466996451,
+      "recovery_utilization": 0.00478105359280298,
+      "full_capacity_fraction": 0.0,
+      "cost_diff_vs_nonbinding": 0.0,
+      "cost_diff_vs_nonbinding_ci": [
+        0.0,
+        0.0
+      ]
+    }
+  }
+}

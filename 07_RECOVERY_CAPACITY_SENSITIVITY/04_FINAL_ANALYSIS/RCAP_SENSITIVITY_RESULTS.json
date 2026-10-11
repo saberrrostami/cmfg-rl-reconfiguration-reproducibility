@@ -1,0 +1,151 @@
+{
+  "protocol": "RCAP-SENS-v1.0",
+  "capacities": [
+    0,
+    1,
+    2,
+    500
+  ],
+  "heldout_seed_range": [
+    990001,
+    990050
+  ],
+  "summary": [
+    {
+      "B": 0,
+      "n": 50,
+      "ppo_family_mean_cost": 7.98916487604549,
+      "b6_mean_cost": 8.252691206775333,
+      "mean_abs_diff": -0.2635263307298439,
+      "abs_ci": [
+        -0.350158322690318,
+        -0.18226057077602753
+      ],
+      "mean_rel_reduction_pct": 3.5761158981622736,
+      "rel_ci": [
+        2.39584532577685,
+        4.878518775412943
+      ],
+      "completion_diff_pp": 2.3361533670614154,
+      "completion_ci_pp": [
+        1.5570425004385329,
+        3.1744621571889873
+      ],
+      "frozen_B1_deploy_mean_cost": 7.908305624756102,
+      "frozen_B1_deploy_completion": 0.6494627531047822,
+      "ppo_recovery_utilization": 0.0,
+      "ppo_full_capacity_time_fraction": 0.0,
+      "b6_recovery_utilization": 0.0,
+      "b6_full_capacity_time_fraction": 0.0,
+      "b6_timeouts": 0,
+      "b6_fallbacks": 0,
+      "frozen_B1_cost_diff_vs_nonbinding": 5.0048404258823265,
+      "frozen_B1_cost_diff_vs_nonbinding_ci": [
+        4.558219575104974,
+        5.43826186775601
+      ]
+    },
+    {
+      "B": 1,
+      "n": 50,
+      "ppo_family_mean_cost": 5.974285781723488,
+      "b6_mean_cost": 5.972751977547744,
+      "mean_abs_diff": 0.001533804175745499,
+      "abs_ci": [
+        -0.11146017614023222,
+        0.11310766733545974
+      ],
+      "mean_rel_reduction_pct": -0.08836411052169411,
+      "rel_ci": [
+        -2.516186211687136,
+        2.2301404098660527
+      ],
+      "completion_diff_pp": 0.9905086897891082,
+      "completion_ci_pp": [
+        -0.05825749121411997,
+        2.0516567957929106
+      ],
+      "frozen_B1_deploy_mean_cost": 5.5616756708679524,
+      "frozen_B1_deploy_completion": 0.7880246787380775,
+      "ppo_recovery_utilization": 0.6587075432570476,
+      "ppo_full_capacity_time_fraction": 0.6587075432570476,
+      "b6_recovery_utilization": 0.6681119108760314,
+      "b6_full_capacity_time_fraction": 0.6681119108760314,
+      "b6_timeouts": 0,
+      "b6_fallbacks": 0,
+      "frozen_B1_cost_diff_vs_nonbinding": 2.6582104719941766,
+      "frozen_B1_cost_diff_vs_nonbinding_ci": [
+        2.2503077528652504,
+        3.070543657118193
+      ]
+    },
+    {
+      "B": 2,
+      "n": 50,
+      "ppo_family_mean_cost": 4.773509543510646,
+      "b6_mean_cost": 4.503749042054889,
+      "mean_abs_diff": 0.26976050145575703,
+      "abs_ci": [
+        0.16150642603635734,
+        0.3800257664657169
+      ],
+      "mean_rel_reduction_pct": -6.05653385353664,
+      "rel_ci": [
+        -8.696977247804394,
+        -3.3987752462780394
+      ],
+      "completion_diff_pp": -0.12630543314105006,
+      "completion_ci_pp": [
+        -1.1857349585090298,
+        0.9142269631752394
+      ],
+      "frozen_B1_deploy_mean_cost": 4.199353519397002,
+      "frozen_B1_deploy_completion": 0.879663470918739,
+      "ppo_recovery_utilization": 0.7257484310935715,
+      "ppo_full_capacity_time_fraction": 0.6150473532440104,
+      "b6_recovery_utilization": 0.62395194801048,
+      "b6_full_capacity_time_fraction": 0.4356783230853877,
+      "b6_timeouts": 5,
+      "b6_fallbacks": 5,
+      "frozen_B1_cost_diff_vs_nonbinding": 1.2958883205232266,
+      "frozen_B1_cost_diff_vs_nonbinding_ci": [
+        1.0165245625203323,
+        1.582363814101825
+      ]
+    },
+    {
+      "B": 500,
+      "n": 50,
+      "ppo_family_mean_cost": 3.2397077741244042,
+      "b6_mean_cost": 2.6051827333086988,
+      "mean_abs_diff": 0.6345250408157057,
+      "abs_ci": [
+        0.48894668323648427,
+        0.7857683652868115
+      ],
+      "mean_rel_reduction_pct": -23.43326728192112,
+      "rel_ci": [
+        -28.799342079843104,
+        -18.233330217967165
+      ],
+      "completion_diff_pp": -1.5734927894028328,
+      "completion_ci_pp": [
+        -2.5155869521080385,
+        -0.6679609251734707
+      ],
+      "frozen_B1_deploy_mean_cost": 2.9034651988737754,
+      "frozen_B1_deploy_completion": 0.9635381466996451,
+      "ppo_recovery_utilization": 0.007856980706932895,
+      "ppo_full_capacity_time_fraction": 0.0,
+      "b6_recovery_utilization": 0.00977802079944347,
+      "b6_full_capacity_time_fraction": 0.0,
+      "b6_timeouts": 0,
+      "b6_fallbacks": 0,
+      "frozen_B1_cost_diff_vs_nonbinding": 0.0,
+      "frozen_B1_cost_diff_vs_nonbinding_ci": [
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}
