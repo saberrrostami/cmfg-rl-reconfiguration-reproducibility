@@ -54,5 +54,6 @@ The source dataset is distributed under the **CC BY 4.0** license. The dataset f
 ## License note
 No new license for the project code is asserted by this package. Before public release, the authors may add an explicit software license (for example, MIT) if appropriate. The included source dataset retains its original CC BY 4.0 license.
 
-## Latest release — v1.1.0 (29 September 2026)
-Final reproducibility release aligned with the Computers & Industrial Engineering submission. This version includes the completed recovery-capacity sensitivity analysis, final held-out results, and manuscript-aligned Figures 9 and 10.
+## Latest release — v1.1.0 (11 October 2026)
+Reproducibility materials accompanying the manuscript:
+Service composition reconfiguration in cloud manufacturing with shared recovery capacity: An event-driven semi-Markov decision process.
