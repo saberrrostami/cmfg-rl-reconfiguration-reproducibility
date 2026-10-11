@@ -1,6 +1,19 @@
-Suggested release tag: v1.0.0
-Suggested release title: Reproducibility package v1.0.0
-Resource type on Zenodo: Software
-Suggested keywords: cloud manufacturing; service composition; service reconfiguration; reinforcement learning; PPO; rolling-horizon optimization; reproducibility
+Manuscript title:
+Dynamic service composition reconfiguration in cloud manufacturing with shared recovery capacity: An event-driven semi-Markov decision process
 
-After Zenodo creates the DOI, add that DOI to the manuscript Data and code availability statement.
+GitHub repository:
+https://github.com/saberrrostami/cmfg-rl-reconfiguration-reproducibility
+
+Zenodo DOI:
+https://doi.org/10.5281/zenodo.23043001
+
+Resource type: Software
+
+Reproducibility materials:
+Scientific code, selected PPO checkpoints, stochastic rolling-horizon MILP benchmark (B6), held-out evaluation results, recovery-capacity sensitivity analyses, computational diagnostics, and manuscript figures.
+
+Figure numbering:
+Figures 1–10 correspond to the final manuscript. Figure 9 presents the recovery-capacity sensitivity analysis; Figure 10 presents the exploratory benchmark-completion grouping analysis.
+
+Keywords:
+Cloud manufacturing; dynamic service composition reconfiguration; shared recovery capacity; semi-Markov decision process; reinforcement learning; rolling-horizon optimization; reproducibility.
