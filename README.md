@@ -1,7 +1,7 @@
 # Reproducibility package
 
 ## Article
-*Dynamic service composition reconfiguration in cloud manufacturing with shared recovery capacity: An event-driven semi-Markov decision process**
+**Dynamic service composition reconfiguration in cloud manufacturing with shared recovery capacity: An event-driven semi-Markov decision process**
 
 This repository contains the frozen code, data inputs, selected model checkpoints, benchmark configuration, held-out results, sensitivity outputs, computational diagnostics, and figures used to support the article.
 
@@ -15,7 +15,7 @@ This repository contains the frozen code, data inputs, selected model checkpoint
 - Primary benchmark: stochastic rolling-horizon MILP (B6).
 - Confirmatory experiments use one shared recovery unit (B = 1).
 
-The family-level PPO estimate averages the five independently trained policies. The validation-selected policy is reported separately. The package does not support a causal recovery-capacity ablation because B = 0, B > 1, and nonbinding recovery settings were not part of the confirmatory design.
+The family-level PPO estimate averages the five independently trained policies. The validation-selected policy is reported separately.
 
 ## Directory structure
 - `01_CORE_AND_CHECKPOINTS/` — frozen scientific source code, public input workbooks, protocol files, selected PPO checkpoints, and development-selection records.
@@ -44,7 +44,7 @@ The source dataset is distributed under the **CC BY 4.0** license. The dataset f
 ## Interpretation boundaries
 - The study is an empirically grounded simulation, not a field deployment of a commercial CMfg platform.
 - Results from the validation-selected PPO policy are distinct from the family-average result across the five independently trained policies.
-- The recovery-capacity level is fixed at B = 1 in the confirmatory evaluation. The primary confirmatory evaluation uses B = 1. A separate recovery-capacity sensitivity analysis considers B = 0, 1, 2, and 500; its findings are reported separately and should not be interpreted as part of the primary confirmatory comparison.
+- The primary confirmatory evaluation uses B = 1. A separate recovery-capacity sensitivity analysis considers B = 0, 1, 2, and 500; its findings are reported separately from the primary confirmatory comparison.
 - The priority-weight analysis is a fixed-trajectory accounting sensitivity; B6 is not reoptimized at alternative priority weights.
 - Timing results are hardware- and implementation-dependent diagnostics rather than confirmatory performance endpoints.
 
@@ -54,6 +54,5 @@ The archived scientific packages retain their original integrity checksums where
 ## License note
 No new license for the project code is asserted by this package. Before public release, the authors may add an explicit software license (for example, MIT) if appropriate. The included source dataset retains its original CC BY 4.0 license.
 
-## Latest release — v1.1.0 (11 October 2026)
-Reproducibility materials accompanying the manuscript:
-Dynamic service composition reconfiguration in cloud manufacturing with shared recovery capacity: An event-driven semi-Markov decision process.
+## Repository information
+See `ZENODO_GITHUB_RELEASE_NOTES.txt` for the manuscript title, Zenodo DOI, and final figure numbering.
