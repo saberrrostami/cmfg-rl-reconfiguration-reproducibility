@@ -49,7 +49,7 @@ The source dataset is distributed under the **CC BY 4.0** license. The dataset f
 - Timing results are hardware- and implementation-dependent diagnostics rather than confirmatory performance endpoints.
 
 ## Integrity
-`MANIFEST_SHA256.csv` provides a SHA-256 digest and file size for every file in this release. Inner frozen archives also retain their original checksums.
+The archived scientific packages retain their original integrity checksums where provided.
 
 ## License note
 No new license for the project code is asserted by this package. Before public release, the authors may add an explicit software license (for example, MIT) if appropriate. The included source dataset retains its original CC BY 4.0 license.
