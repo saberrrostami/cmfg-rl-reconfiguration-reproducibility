@@ -5,7 +5,7 @@ GitHub repository:
 https://github.com/saberrrostami/cmfg-rl-reconfiguration-reproducibility
 
 Zenodo DOI:
-https://doi.org/10.5281/zenodo.23043001
+https://doi.org/10.5281/zenodo.23313067
 
 Resource type: Software
 
